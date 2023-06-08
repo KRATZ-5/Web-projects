@@ -1,0 +1,50 @@
+<meta charset="utf-16">
+<!DOCTYPE html>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+
+
+
+<head>
+    <title>Самый лучший сайт загадок</title>
+    <h1>Загадка</h1>
+    <h3>Висит груша нельзя скушать</h3>
+    <div>
+      <form name="publish">
+        <input type="text" name="message" placeholder="Введите сообщение" onchange='eventForm(this.value)'>
+      </form>
+    </div>
+    <p id="demo"></p>
+    <h3 id="next"></h3>
+    <div>
+      <form name="publish">
+        <input type="text" name="message" placeholder="Введите сообщение" onchange='eventForm1(this.value)'>
+      </form>
+    </div>
+    <p id="demo1"></p>
+    <script>
+
+    function eventForm(value) {
+      if (value == 'Несъедобная груша') {
+         document.getElementById("demo").innerHTML = 'Верно';
+
+         document.getElementById("next").innerHTML =  'Висит яблоко нельзя скушать';
+      }
+      else{
+      document.getElementById("demo").innerHTML =  'Неверно';
+      }
+      }
+
+
+    function eventForm1(value) {
+      if (value == 'Несъедобное яблоко') {
+         document.getElementById("demo1").innerHTML = 'Верно'
+      }
+      else{
+      document.getElementById("demo1").innerHTML =  'Неверно';
+      }
+    }
+    </script>
+</head>
+
+

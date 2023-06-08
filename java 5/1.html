@@ -1,0 +1,28 @@
+<meta charset="windows-1251">
+<!DOCTYPE html>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"><!--&lt;!&ndash;<p id="numer">3</p>&ndash;&gt;-->
+
+
+
+<script>
+function showMessage() {
+let message = "Привет, я JavaScript!";
+alert( message );
+
+
+let sum = (a, b) => {let result = a + b;return result;};
+alert( sum("Привет, я JavaScript! ","Привет, я Максим!") );
+
+// локальная переменная
+let age = prompt("Сколько Вам лет?", 18);
+let welcome = (age < 18) ?
+() => alert('Привет') :
+() => alert("Здравствуйте!");
+
+welcome(); // теперь всё в порядке
+}
+
+showMessage(); // Привет, я JavaScript!
+alert( message ); //
+
+</script>

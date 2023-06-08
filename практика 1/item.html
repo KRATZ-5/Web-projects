@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+<meta charset="windows-1251">
+<html>
+<head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+<title>Перешли по ссылке сюда</title>
+<style>
+body{-family: 'Roboto', sans-serif;}
+
+</style>
+</head>
+<body>
+<script>
+
+let toster = new item("30000 рублей",1000,"2","euro","8");
+
+function item(price,power,slots,type_fork,programs) {
+this.price = price;
+this.power = power;
+this.slots = slots;
+this.type_fork = type_fork;
+this.programs = programs;
+sp="<span style='font-size:55px;color:red; font-weight:bold'>"
+if(this.power>=1000){
+    this.sayPower = function() {document.write(sp+"Моя мощность "+this.power+" watt"+"<BR></span>")};
+}
+else{
+    this.sayPower = function() {document.write(sp+"Моя мощность меньше 1000 watt"+"<BR></span>")};
+}
+}
+
+toster.sayPower();
+
+</script>
+<div align="left"><a href=" index.html">Обратно</a></div>
+<img src="toster.png" align="left" width='700'><font size="+2">
+<div align="bottom"><pre align="bottom">
+Тостер незаменимая вещь в любом доме.
+Только тостер способен поджарить вам на завтрак свежайщие тосты.
+Попробуйте наш тостер Polaris-1000W и вы не сможете представить свою жизнь без него</font>
+<pre align="left"><font size="+4">
+Цена  30000 рублей
+
+
+Характеристики:</font>
+
+<font size="+2">
+Мощность                          1000 ватт
+Количество слотов для хлеба       2
+Тип вилки                         Евро
+Колличество степеней поджаривания 8
+</font>
+</pre>
+
+</body>
+</html>

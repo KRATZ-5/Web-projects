@@ -1,0 +1,28 @@
+<meta charset="windows-1251">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+<link rel="stylesheet" href="index.css">
+<title>Самый лучший сайт</title>
+    <script>    
+    function turnOnOff() {
+        var image=document.getElementById('Image');
+        if(image.src.match("green_apple"))
+            image.src="red_apple.jpg";
+        else
+            image.src="green_apple.jpg";}
+    </script>
+    <img id="Image"
+         onclick="turnOnOff()"
+         src="green_apple.jpg">
+<p>
+    Нажмите на яблоко, чтобы включать и выключать ее
+</p>
+
+<body>
+<a href="contacte.html" align="left">Контакты</a>
+<div align="center">
+<a href="item.html"><img src="toster.png" align="bottom" width='400'></a>
+<br>
+
+<p id="bottom">@Все права защищены</p>
+</div>
+</body>

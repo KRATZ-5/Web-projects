@@ -1,0 +1,83 @@
+.desktop-1-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1444px;
+  height: 1024px;
+  object-fit: cover;
+  opacity: 0.6;
+}
+.infoturpohodygmailcom {
+  margin: 0;
+}
+.div,
+.infoturpohodygmailcom-7-90 {
+  position: absolute;
+  top: 894px;
+  left: 914px;
+  display: inline-block;
+  width: 501px;
+  height: 86px;
+}
+.div {
+  top: 146px;
+  left: 416px;
+  font-size: 64px;
+  color: #0b0a0a;
+  width: 654px;
+  height: 83px;
+}
+.vector-icon,
+.vector-icon1,
+.vector-icon2,
+.vector-icon3 {
+  position: absolute;
+  height: 3.61%;
+  width: 1.32%;
+  top: 3.52%;
+  right: 19.65%;
+  bottom: 92.87%;
+  left: 79.03%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.vector-icon1,
+.vector-icon2,
+.vector-icon3 {
+  height: 6.25%;
+  width: 7.99%;
+  top: 2.44%;
+  right: 8.47%;
+  bottom: 91.31%;
+  left: 83.54%;
+}
+.vector-icon2,
+.vector-icon3 {
+  height: 2.67%;
+  width: 2.07%;
+  top: 4.22%;
+  right: 11.19%;
+  bottom: 93.11%;
+  left: 86.74%;
+}
+.vector-icon3 {
+  height: 6.25%;
+  width: 4.51%;
+  top: 2.25%;
+  right: 2.15%;
+  bottom: 91.5%;
+  left: 93.33%;
+}
+.desktop-1 {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  cursor: pointer;
+  text-align: center;
+  font-size: 36px;
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}

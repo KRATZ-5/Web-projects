@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Самый лучший сайт</title>
+</head>
+<body>
+<a href="contacte.html" align="left">Контакты</a>
+<div align="center">
+<img src="toster.png" align="bottom" width='400'>
+<a href="item.html">Переход на страницу тостера</a><br>
+
+<p align="bottom">Все права защищены</p>
+</div>
+</body>
+</html>

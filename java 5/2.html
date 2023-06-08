@@ -1,0 +1,25 @@
+<meta charset="windows-1251">
+<!DOCTYPE html>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"><!--&lt;!&ndash;<p id="numer">3</p>&ndash;&gt;-->
+<head>
+<div>
+      <form name="publish">
+        <input type="text" name="message" placeholder="Введите фамилию" onchange='eventForm(this.value)'>
+      </form>
+    </div>
+<script>
+    function eventForm(value) {
+    n=value.length/2;
+    flag=0;
+    for (var i=0;i<=n;i++){
+        if (value[i]!=value[value.length-i-1]){
+            flag=1;
+        }
+    }
+    if (flag==1){document.write('Не палиндром');}
+    else{document.write('Палиндром');}
+
+    }
+
+</script>
+</head>

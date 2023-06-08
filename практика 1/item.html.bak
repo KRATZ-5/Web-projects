@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Перешли по ссылке сюда</title>
+</head>
+<body>
+
+<div align="left"><a href=" index.html">Обратно</a></div>
+<img src="toster.png" align="left" width='700'><font size="+2">
+<div align="bottom"><pre align="bottom">
+Тостер незаменимая вещь в любом доме.
+Только тостер способен поджарить вам на завтрак свежайщие тосты.
+Попробуйте наш тостер Polaris-1000W и вы не сможете представить свою жизнь без него</font></pre></div>
+<pre align="left"><font size="+4">
+Цена  30000 рублей
+
+
+Характеристики:</font>
+
+<font size="+2">
+Мощность                          1000 ватт
+Количество слотов для хлеба       2
+Тип вилки                         Евро
+Колличество степеней поджаривания 8
+</font>
+</pre>
+
+</body>
+</html>

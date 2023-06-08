@@ -1,0 +1,116 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+}
+.v12_2 {
+  width: 100%;
+  height: 1024px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.v14_2 {
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(255, 255, 0, 0.5),
+    rgba(0, 0, 255, 0.5)
+  ), url("Rectangle 2.png");
+
+    /* Global values */
+    background-image: inherit;
+    background-image: initial;
+    background-image: revert;
+    background-image: revert-layer;
+    background-image: unset;
+  opacity: 0.6000000238418579;
+  position: absolute;
+  top: 0px;
+  left: 4px;
+  overflow: hidden;
+}
+.v20_27 {
+  width: 501px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 894px;
+  left: 914px;
+  font-family: Inter;
+  font-weight: Regular;
+  font-size: 36px;
+  opacity: 1;
+  text-align: center;
+}
+.v4_2 {
+  width: 654px;
+  color: rgba(10,10,9,1);
+  position: absolute;
+  top: 146px;
+  left: 416px;
+  font-family: Inter;
+  font-weight: Regular;
+  font-size: 64px;
+  opacity: 1;
+  text-align: center;
+}
+.v20_32 {
+  width: 56px;
+  height: 69px;
+  opacity: 1;
+  position: absolute;
+  top: 20px;
+  left: 1101px;
+}
+.v20_33 {
+  width: 115px;
+  height: 64px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 25px;
+  left: 1203px;
+  overflow: hidden;
+}
+.v20_34 {
+  width: 115px;
+  height: 64px;
+  background: rgba(255,0,0,1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+.v20_35 {
+  width: 29px;
+  height: 27px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 18px;
+  left: 46px;
+}
+.v20_36 {
+  width: 100%;
+  height: 1200px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 781px;
+  left: 577px;
+  overflow: hidden;
+}
+.v20_37 {
+  width: 65px;
+  height: 64px;
+  background: rgba(151,71,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 804px;
+  left: 767px;
+}
